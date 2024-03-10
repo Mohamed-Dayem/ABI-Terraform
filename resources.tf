@@ -81,8 +81,8 @@ resource "aws_security_group" "nodejs_frontend_sg" {
   
 
   ingress {
-    from_port   = 3000
-    to_port     = 3000
+    from_port   = 3001
+    to_port     = 3001
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
